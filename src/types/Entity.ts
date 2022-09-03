@@ -19,3 +19,8 @@ export enum DataTypes {
   BLOB = "BLOB",
   NULL = "NULL",
 }
+
+export interface InsertEntity {
+  column: string;
+  value: any;
+}
